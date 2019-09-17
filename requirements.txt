@@ -1,0 +1,7 @@
+torch>=0.1.2
+torchvision>=0.4.0
+numpy>=1.17.2
+opencv-python>=4.1.1.26
+lmdb>=0.97
+PyYAML>=5.1.2
+tb-nightly>=2.0.0a20190917
