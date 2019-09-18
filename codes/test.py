@@ -48,8 +48,8 @@ for test_loader in test_loaders:
 
     for data in test_loader:
         # need_GT = False if test_loader.dataset.opt['dataroot_GT'] is None else True
-        # model.feed_data(data, need_GT=need_GT)
         need_GT = False
+        model.feed_data(data, need_GT=need_GT)
         img_path = data['GT_path'][0] if need_GT else data['LQ_path'][0]
         img_name = osp.splitext(osp.basename(img_path))[0]
 

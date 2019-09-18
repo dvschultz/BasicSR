@@ -10,7 +10,7 @@ datasets:
   test_1:  # the 1st test dataset
     name: test1
     mode: LQGT
-    dataroot_GT: ~
+    dataroot_GT: /root/BasicSR/datasets/ladiescrop-5-24-60
     dataroot_LQ: /root/BasicSR/datasets/ladiescrop-5-24-60
   # test_2:  # the 2st test dataset
   #   name: set14
